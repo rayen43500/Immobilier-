@@ -1,0 +1,74 @@
+:root {
+  --primary: #2563eb;
+  --secondary: #4f46e5;
+  --bg: #f8fafc;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --button: #3b82f6;
+  --button-hover: #1d4ed8;
+  --shadow-soft: 0 10px 25px rgba(15, 23, 42, 0.08);
+  --shadow-strong: 0 22px 50px rgba(15, 23, 42, 0.2);
+  --shadow-lift: 0 14px 34px rgba(37, 99, 235, 0.18);
+  --heading: 'Poppins', 'Montserrat', 'Segoe UI', sans-serif;
+  --body: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+
+  font: 16px/1.6 var(--body);
+  letter-spacing: 0.2px;
+  color: var(--text-main);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #eef2ff 0%, #f8fafc 55%, #f1f5f9 100%);
+  color: var(--text-main);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading);
+  margin: 0 0 12px;
+  color: var(--text-main);
+}
+
+h1 {
+  font-size: clamp(2.4rem, 4vw, 3.6rem);
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: clamp(1.6rem, 2.5vw, 2.1rem);
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
