@@ -24,3 +24,13 @@ npm run build
 ```bash
 npm run preview
 ```
+
+## Deploy to GitHub Pages
+Repository: https://github.com/rayen43500/Immobilier-.git
+
+```bash
+npm install
+npm run deploy
+```
+
+After deploy, enable GitHub Pages in the repo settings and select the `gh-pages` branch.
